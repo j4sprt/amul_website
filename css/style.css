@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../JPG/inN.jpg");
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 60px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+.menu{
+	display: inline-block;
+	
+}
+
+.menu a{
+	text-decoration: none;
+	color: #fff;
+    margin:0;
+	border: 1px 3 solid transparent;
+	transition: 0.6s ease;
+}
+
+
+.menu:hover{
+	
+	background-color: #0062cc;
+	margin-top: -8px;
+	padding: 6px 0;
+	
+	
+	}
+
+ul li a:hover{
+	background-color: #0062cc;
+	color: #fff;
+}
+
+ul li.active a{
+	background-color: #0062cc;
+	color: #fff;
+}
+
+.logo img{
+	float: left;
+	margin-top: 5px;
+	margin-right: 50px;
+	width: 170px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 28%;
+	left: 60%;
+	right:10%;
+	down:30%;
+	
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.title1{
+	position: absolute;
+	top: 33%;
+	left: 16%;
+
+}
+.title1 h1{
+	color: #fff;
+	font-size: 15px;
+	
+}
+.button{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	right:60%;
+	
+	
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #FFFFFF;
+
+	text-decoration: none;
+	transition: 0.6s ease;
+	
+}
+.btn:hover{
+	background-color: #0062cc;
+	color: #fff;
+}
+
+.about{
+	position: absolute;
+	top: 20%;
+	
+	bottom: 30%;
+	
+}
+
+.about-h1{
+	position: center;
+	right: 50%;
+	margin-left: 600px;
+	color: #fff;
+	font-size: 40px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.about-box{
+	position: center;
+	margin-top: 25px;
+	margin-left: 155px;
+	margin-right: 155px;
+	font-size: 21px;
+	color:#C3C1FF;
+	
+	
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+       .mainfooterpart{width:100%; height:100%; background-color:#2b5176; }
+.footerpart{width:990px; height:250px; margin:auto;}
+.footerleft{width:495px; height:250px; float:left;}
+.footerleft-under{width:247px; height:245px; float:left;}
+.footerleft-under-heading{width:230px; height:20px; float:left; font-family:"Segoe UI"; font-size:18px; color:#fff; text-align:left; margin-top:20px; margin-left:17px; margin-bottom:20px;}
+.footerleft-under-nav{width:230px; height:20px; float:left; font-family:"Segoe UI"; font-size:14px; color:#d8d4d4; margin-top:5px; margin-left:17px;}
+.footerleft-under-nav a{text-decoration:none; color:#fff;}
+.footerleft-under-nav a:hover{color:#fff; text-decoration:underline;}
+.footerright{width:495px; height:250px; float:right;}
+.signuptext{width:495px; height:30px; float:right; text-align:center; margin-top:20px; font-family:"Segoe UI"; font-size:20px; color:#fff;}
+.newsletter{width:360px; height:40px; float:left; border:1px solid; border-color:#bebebe; margin-left:65px; margin-top:15px;}
+.newsletter-under{width:255px; height:40px; float:left; font-family:"Segoe UI"; font-size:14px; color:#000; padding-left:5px; background-color:#c7c4c4 ; border:none; }
+.newsletter-button{width:100px; height:40px; float:right; display: block; background-color: #007bff; border: none; cursor: pointer; font-family:"Segoe UI"; font-size:20px; color:#fff;}
+.fcompany{width:490px; height:15px; float:left; font-family:"Segoe UI"; font-size:13px; color:#c7c4c4; margin-top:115px; margin-right:5px; text-align:right; }
+
+/*************** main footer part is stop here ******************/
+
+/*************** subscribe part is start here ******************/
+.newsletter-button:hover{
+           background: #0062cc
+			   ;
+         }
+.subscribe{width:9900px; height:40px; margin:auto;}
+.subscribe-under{width:990px; height:30px; margin-top:10px; background-color:#eff5ea; border:1px solid; border-color:#0acb0e;}
+.subscribe-right{width:20px; height:20px; float:left; margin-top:5px; margin-left:20px;}
+.subscribe-text{width:700px; height:30px; line-height:30px; font-size:13px; color:#0acb0e; font-family:"Segoe UI"; margin-left:20px;}
